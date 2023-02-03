@@ -1,0 +1,16 @@
+.header {
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+i {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  background-color: #fff;
+  padding: 0.5rem;
+  color: #000;
+}
+
+i:hover {
+  background-color: #FF61A0;
+}

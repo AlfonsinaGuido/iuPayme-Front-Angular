@@ -1,0 +1,36 @@
+<div class="">
+    <div class="">
+        <div class=""> Transaction History</div>
+        <div class=""><input class="search" type="search" name="Search " placeholder="Search                     🔍"
+                id=""></div>
+    </div>
+
+    <div class="">
+        <table>
+            <tr>
+                <th>Nº</th>
+                <th class="">🠕🠗</th>
+                <th class="">ID</th>
+                <th class="">Transfer Type</th>
+                <th>User</th>
+                <th>Amount</th>
+                <th class="">Date</th>
+            </tr>
+            <tr *ngFor="let history of transactions">
+                <td>{{history.number}}</td>
+                <td class=""
+                    [ngClass]="{'pink':history.arrow==='🠕','green':history.arrow==='🠗'}">
+                    {{history.arrow}}</td>
+                <td class="">{{history.id}}</td>
+                <td class="">{{history.type}}</td>
+                <td>{{history.user}}</td>
+                <td>{{history.amount | myCurrency}}</td>
+                <td class="">{{history.date | date: 'yyyy/MM/dd'}}</td>
+            </tr>
+
+        </table>
+
+
+    </div>
+
+</div>

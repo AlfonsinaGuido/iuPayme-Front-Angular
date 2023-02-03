@@ -1,0 +1,28 @@
+.chart {
+    background-color: #fff;
+}
+
+.fa-circle {
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+.fa-sliders,
+.fa-calendar-days {
+    font-size: 1.2rem;
+    background-color: #F5F7F9;
+    padding: 0.5rem;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.fa-sliders:hover,
+.fa-calendar-days:hover {
+    background-color: #FF61A0;
+}

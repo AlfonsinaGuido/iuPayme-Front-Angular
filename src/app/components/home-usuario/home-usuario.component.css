@@ -1,0 +1,37 @@
+.app-cards {
+    background-color: blueviolet;
+}
+
+.app-balance {
+    background-color: brown;
+}
+
+.app-history {
+    background-color: pink;
+}
+
+.app-footer {
+    background-color: burlywood;
+}
+
+.layout {  display: grid;
+    grid-template-columns: 0.7fr 0.9fr 1.2fr 1.2fr;
+    grid-template-rows: 0.5fr 1.2fr 1.8fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .app-navbar { grid-area: 1 / 1 / 5 / 2; }
+  
+  .app-header { grid-area: 1 / 4 / 2 / 5; }
+  
+  .app-footer { grid-area: 4 / 4 / 5 / 5; }
+  
+  .app-cards { grid-area: 2 / 2 / 4 / 3; }
+  
+  .app-balance { grid-area: 2 / 3 / 3 / 4; }
+  
+  .app-history { grid-area: 3 / 3 / 4 / 5; }
+  
+  .app-chart { grid-area: 2 / 4 / 3 / 5; }
+  
