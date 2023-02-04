@@ -15,6 +15,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MyCurrencyPipe } from './pipes/my-currency.pipe';
+import { MyDatePipe } from './pipes/my-date.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MyCurrencyPipe } from './pipes/my-currency.pipe';
     BalanceComponent,
     HistoryComponent,
     ChartComponent,
-    MyCurrencyPipe
+    MyCurrencyPipe,
+    MyDatePipe
   ],
   imports: [
     BrowserModule,
